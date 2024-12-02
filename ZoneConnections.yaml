@@ -813,7 +813,23 @@ FindLocations:
             name: Envoy of the Convergence
             keyword: assistance
             targetZone: ecommons
+        -   type: Translocator
+            name: '#Translocator Gethia'
+            keyword: travel to Timorous Deep
+            targetZone: timorous
+        -   type: Translocator
+            name: '#Translocator Fithop'
+            keyword: travel to Ocean of Tears
+            targetZone: oot
 # 69 oot
+    oot:
+        -   type: Translocator
+            name: '#Translocator Narrik'
+            destinations:
+                -   keyword: travel to Freeport
+                    targetZone: freportw
+                -   keyword: travel to Butcherblock
+                    targetZone: butcher
 # 70 cauldron
     cauldron:
         -   type: ZoneConnection
