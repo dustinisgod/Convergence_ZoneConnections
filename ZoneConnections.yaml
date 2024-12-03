@@ -130,6 +130,10 @@ FindLocations:
         -   type: ZoneConnection
             location: [-1392, -736, -55]
             targetZone: nro
+        -   type: Translocator
+            name: '#Translocator Setikan'
+            keyword: Ocean of Tears
+            targetZone: oot
 # 11 runnyeye
     runnyeye:
         -   type: ZoneConnection
@@ -827,7 +831,7 @@ FindLocations:
             name: '#Translocator Narrik'
             destinations:
                 -   keyword: travel to Freeport
-                    targetZone: freportw
+                    targetZone: freporte
                 -   keyword: travel to Butcherblock
                     targetZone: butcher
 # 70 cauldron
@@ -1095,6 +1099,12 @@ FindLocations:
             targetZone: sebilis
             switch: 12
 # 96 timorous
+    timorous:
+    -   type: Translocator
+        name: '#Translocator Deela'
+        destinations:
+            -   keyword: travel to Butcherblock
+                targetZone: butcher
 # 97 kurn
     kurn:
         -   type: ZoneConnection
